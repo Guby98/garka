@@ -1,0 +1,1 @@
+Cambié todos los títulos menos el index, agregué un encabezado por página y la etiqueta meta description con una descripción breve de lo que contiene y/o ofrece cada página

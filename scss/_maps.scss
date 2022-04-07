@@ -1,0 +1,10 @@
+$mapMotoclub: (nav1:#FFFFFF, nav2:#FBF9F9, nav3:#F8F3F3, nav4:#F6EEEE, nav5: #F6EDED, black: black);
+
+
+    
+@each $i, $valor in $mapMotoclub {
+    .#{$i} {
+        color: $valor;
+    }
+}
+

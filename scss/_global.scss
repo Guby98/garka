@@ -1,0 +1,26 @@
+
+
+body{
+    margin: 5px 5px 5px 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 110%;
+    word-spacing: 0.1mm;
+    background-image: linear-gradient (red, blue);
+    background-color: #0b0809;
+    color: white;
+    
+}
+
+img{
+    border-radius: 15px;
+    margin: 10px 10px 10px 10px;
+    max-width: 100%;
+}
+
+@media (max-width: 768px){
+    img{
+        max-width: 30vh;
+        max-height: 30vh;
+        position: relative;
+    }
+}

@@ -1,0 +1,10 @@
+@mixin imgGaleria ($border, $margin, $color, $radius) {
+    border: $border;
+    margin-bottom: $margin;
+    border-color: $color;
+    border-radius: $radius;
+}
+
+.imgGaleria{
+    @include imgGaleria(2px,10px,black, 15px )
+}

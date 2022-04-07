@@ -1,0 +1,51 @@
+header{ 
+    nav{
+        ul{
+            li{
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+
+.navbar{
+    background-color: #0b0809!important;
+    
+}
+
+.navbar{
+    padding: 0;
+}
+
+
+.navbar .navbar-nav .nav-link{
+    transition: all ease 0.5s;
+    border-radius: 17%;
+    margin: 0.1px;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    background-color: grey;
+}
+
+.container{
+    transition: all 2s ease;
+    align-items: center;
+    overflow: visible;
+}
+
+.container-fluid{
+    margin:0;
+    padding: 0;
+}
+
+    
+
+@media screen and (min-width:992px){
+    .navbar{
+        padding: 0px;
+    }
+}

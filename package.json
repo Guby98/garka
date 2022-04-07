@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass style.scss css/style.css -w --no-source-map -s compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guby98/Demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guby98/Demo/issues"
+  },
+  "homepage": "https://github.com/Guby98/Demo#readme"
+}
